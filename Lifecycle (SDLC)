@@ -1,1 +1,50 @@
-
+First stage **Planning**
+- Interviews with stakeholders (the people who have skin in the game)
+		- should identify key features
+		- should come up with scope of design or changes
+		- should come up with milestones
+	- Development team should also reject impossible demands
+		- Never agree to build things that cant be built
+Second Stage **Analysis**
+- This is when the requirements are examined for feasibility
+	- Meaning, can this be done...
+		- On time?
+		- Under budget?
+		- Given other considerations?
+	- There are often business team members who work with developers to analyze the requirements (project manager)
+	- requirements are passed back and forward in a negotiation process
+	- Only when all requirements are clearly defined should we move to the next stage
+Third Stage **Design**
+	- In classical models of software development, this stage is where the entire software project is at least outlined
+		- in ancient days (before 1990s) every model would be completed designed in advance, down to function inputs and outputs
+			- Why?
+				- Bugs couldn't be easily fixed after the product was shipped
+				- Everything had to be perfect before the software was mastered
+	- In contemporary large software projects, a software architect will come up with data flows and design of the system before more junior developers code-could include wireframes. etc.
+					Fourth Stage **Implementation**
+- This stage consists of actual software development
+- Engineers write the code
+	- Usually with a project manager who keeps track of small deadlines
+- In waterfall development this means actually going through the design documents and carefully implementing each feature
+- In more modern software development life cycles, this means breaking down user requirements into sprints
+	- Usually one or two weeks timelines
+	- and then writing code to meet those standards
+					Fifth Stage **Testing and Integration**
+- Now that we've coded the software we need to test that it works
+	- Testing happens all of the time and could actually happen first in some cases
+		- Meaning, we use a combination  of:
+			- Software - driven (acceptance) Testing
+				- sometimes this is called QA (Quality Assurance)
+				- Usually this will be tested by stakeholders
+- Integration means making sure that the software works in our production environment in concert with other systems
+	- Continuous Integration and Continuous deployments are modern takes on this idea
+					Sixth Stage **Maintenance**
+- Monitoring
+	- Could be heartbeat checkers
+	- Could be error reporting and bug tracking
+		- This is usually a combination of automated and manual reporting
+- Making improvements over time
+	- In the contempered, CI/CD model,, we make changes every data to fix bugs and add new features
+- Evaluation
+- Disposal
+	- Almost never happens, unfortunately
